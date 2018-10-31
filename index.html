@@ -1,45 +1,38 @@
 <html>
+	<link rel="style" href="style.css">
+	<script src="src/index.js"></script>
 
 <head>
+	
 	<title>Calculator</title>
 	<meta charset="UTF-8" />
 </head>
 
 <body>
-	<div id="app"></div>
+	<div class="calculator">
 
-	<br><input type="text"><br/>
+		<input type="text" class="calculator-screen" value="" disabled />
 
-	<table>
-		<tr>
-			<th><input type="button" value="7"></th>
-			<th><input type="button" value="8"></th>
-			<th><input type="button" value="9"></th>
-	  </tr>
-		<tr>
-			<th><input type="button" value="4"></th>
-			<th><input type="button" value="5"></th>
-			<th><input type="button" value="6"></th>
-		</tr>
-		<tr>
-			<th><input type="button" value="1"></th>
-			<th><input type="button" value="2"></th>
-			<th><input type="button" value="3"></th>
-		</tr>
-
-	<br> <input type="button" value="1"><br/>
-	<br> <input type="button" value="2"><br/>
-	<br> <input type="button" value="3"><br/>
-	<br> <input type="button" value="4"><br/>
-	<br> <input type="button" value="5"><br/>
-	<br> <input type="button" value="6"><br/>
-	<br> <input type="button" value="7"><br/>
-	<br> <input type="button" value="8"><br/>
-	<br> <input type="button" value="9"><br/>
-	
-	<br> <input type="button" value="+"><br/>
-
-	<script src="src/index.js"></script>
+		<div class="calculator-keys">
+			<button type="button" class="plus" value="+">+</button>
+			<button type="button" class="minus" value="-">-</button>
+			<button type="button" class="x" value="x">x</button>
+			<button type="button" class="operator" value="/">/</button>
+			<button type="button" class="seven" value="7">7</button>
+			<button type="button" class="eight" value="8">8</button>
+			<button type="button" class="operator" value="9">9</button>
+			<button type="button" class="operator" value="4">4</button>
+			<button type="button" class="operator" value="5">5</button>
+			<button type="button" class="operator" value="6">6</button>
+			<button type="button" class="operator" value="1">1</button>
+			<button type="button" class="operator" value="2">2</button>
+			<button type="button" class="operator" value="3">3</button>
+			<button type="button" class="operator" value=".">.</button>
+			<button type="button" class="operator" value="0">0</button>
+			<button type="button" class="operator" value="AC">AC</button>
+			<button type="button" class="rovnase" value="=">=</button>
+		</div>
+	</div>
 </body>
 
 </html>
