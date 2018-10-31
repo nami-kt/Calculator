@@ -6,31 +6,38 @@ body {
   display: grid;
   grid-template-columns: 80px 80px 80px 70px;
   grid-gap: 10px;
-  background-color: #fff;
-  color: #444;
+  background-color: rgb(220, 230, 220);
+  padding: 15px 17px 25px 15px;
+  width: 340px;
 }
 
 button {
   background-color: lightpink;
   font-family: Arial;
   text-align: center;
+  font-weight: bold;
   width: 70px;
-  box-shadow: black;
   color: #fff;
   border-radius: 5px;
   padding: 20px;
   font-size: 150%;
+  border: 2px;
+  box-shadow: 3px 3px lightgrey;
 }
-
-button::hover {
-  background-color: white;
+button:hover {
+  opacity: 50;
+  background-color: violet;
+  transition: all 0.51s;
 }
 
 .calculator-screen {
   height: 70px;
   grid-column: 1 / span 4;
   border: none;
+  border-radius: 5px;
   font-size: 25px;
+  text-align: right;
+  padding: 15px;
 }
 
 .calculator-keys {
@@ -40,4 +47,21 @@ button::hover {
 .rovnase {
   grid-column: 4;
   grid-row: 3 / span 4;
+}
+
+button [value="0"],
+[value="2"],
+[value="3"],
+[value="4"],
+[value="5"],
+[value="6"],
+[value="7"],
+[value="8"],
+[value="9"],
+[value="1"] {
+  background-color: lightblue;
+}
+
+.all-clear {
+  background-color: #ff6698;
 }
