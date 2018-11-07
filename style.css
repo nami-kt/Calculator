@@ -44,7 +44,7 @@ button:hover {
   display: contents;
 }
 
-.rovnase {
+.equals {
   grid-column: 4;
   grid-row: 3 / span 4;
 }
