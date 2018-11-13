@@ -9,6 +9,7 @@ body {
   background-color: rgb(220, 230, 220);
   padding: 15px 17px 25px 15px;
   width: 340px;
+  border-radius: 5px;
 }
 
 button {
@@ -44,7 +45,7 @@ button:hover {
   display: contents;
 }
 
-.equals {
+button[value="="] {
   grid-column: 4;
   grid-row: 3 / span 4;
 }
