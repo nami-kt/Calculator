@@ -50,7 +50,7 @@ button[value="="] {
   grid-row: 3 / span 4;
 }
 
-button [value="0"],
+button[value="0"],
 [value="2"],
 [value="3"],
 [value="4"],
@@ -64,5 +64,7 @@ button [value="0"],
 }
 
 .all-clear {
+  width: 163;
+  grid-column: 2 / 4;
   background-color: #ff6698;
 }
